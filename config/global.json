@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "FakeBuk-Page-Search": {
+            "applicationId": "AMBP4Fp3fLYefolDZLooRxE4MatcLcr1gyhDJIBV", 
+            "masterKey": "bpWh1JznEp5QWLwOv7qOjoCzb39t9zDdh2yv5qDU"
+        }, 
+        "_default": {
+            "link": "FakeBuk-Page-Search"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}

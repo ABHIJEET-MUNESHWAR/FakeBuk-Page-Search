@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Facebook page search</title>
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  </head>
+<body>
+
+     <div class="container">
+
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">FakeBuk-Page-Search</h2>
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="login" onclick="loginClickFunc();">Login with Facebook</button>
+      </form>
+
+    </div> <!-- /container -->
+
+    <br>
+    <span id="user-info" style="border:1px solid #888; display:none"></span>
+
+    <span id="fb-root"></span>
+    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1&status=0&appId=391846640971339"></script>
+    <script type="text/javascript" src="js/fbLogin.js"></script>
+    
+</body>
+</html>

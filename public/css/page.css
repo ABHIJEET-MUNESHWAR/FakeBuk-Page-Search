@@ -1,0 +1,191 @@
+html,body{
+  margin:0;
+  padding:0;
+  background-color:#E9EAED;
+  color: #808080;
+  font-family: Helvetica,Arial,'lucida grande',tahoma,verdana,arial;
+  font-size:12px;
+}
+.ciz{border:solid 1px red;}
+#bar {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBMVEVOaaJDYJxCX5xBXptIZJ9MZ6E/XJpFYZ1KZqA9W5lGYp5HY55MaKFJZZ9LZqBEYZ1NaaJNaKJNaKFAXZtAXZpLZ6E+XJo+W5lJZaA9Wpk8Wpk8Wpg8WZg7WZj2xcGWAAAANElEQVR42lWGSQoAIBDDHCjo0f8/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==');
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    background-position: 0px 0px;
+    background-color: #4C66A4;
+    border: 0px none;
+    box-shadow: none;
+    position: relative;
+    height: 42px;
+    color: #333;
+}
+#bar:after {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAECAYAAABP2FU6AAAAFElEQVQIHWOQM8q8zcDKKSzHAAcAHWQB1AViXrsAAAAASUVORK5CYII=');
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    background-position: 0px 0px;
+    bottom: -4px;
+    content: "";
+    height: 4px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.barOrtala {
+  width:960px;margin:auto;
+}
+
+
+
+.yrm{
+
+  margin: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+width:420px;
+  position: relative;
+  padding: 5px 0px 5px 0px;
+
+}
+.logo{
+  margin-top:-5px;
+  float:left;
+ background-image: url('https://fbstatic-a.akamaihd.net/rsrc.php/v2/yl/r/fZGvOg_jafc.png');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: -31px -100px;
+    height: 41px;
+    padding: 0px;
+    width: 41px;
+}
+.input{
+  float:left;
+  width:368px;
+  height:5px;
+  min-height:18px;
+  padding: 3px;
+  border:solid #E5E6E9 1px;
+  positon:relative;
+  border-radius:5px;
+  margin-top:3px;
+  z-index:40;
+}
+.temizle{clear:both}
+.yukle{
+  border-left:1px solid #ccc;
+
+  
+  background-image: url('https://fbstatic-a.akamaihd.net/rsrc.php/v2/yl/r/fZGvOg_jafc.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: -80px -32px;
+  height: 16px;
+  right:20px;
+  margin-top:8px;
+  margin-right: 0px;
+  float:right;
+  width: 20px;
+  position:absolute;
+  z-index:50; 
+ cursor: pointer;
+}
+
+
+
+
+#menu1{
+  width:334px;
+  height:42px;
+
+  padding:0;
+  list-style:none;
+  float:right;
+  
+  margin-top:-47px;
+
+  box-shadow: none;
+  position: relative;
+}
+#menu1 li{
+  height:27px;
+  border-radius:3px;
+  float:left;
+  margin:8px 0 0 0;
+  padding: 0 5px 0 5px;
+}
+#menu1 li:nth-child(1):hover,#menu1 li:nth-child(2):hover{
+  background-color: rgb(66, 86, 145);
+}
+#menu1 li a{
+  text-decoration:none;
+  color:#fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px -1px 0px;
+  color:#fff;
+
+}
+#menu1 li a img{
+  width:20px;
+  height:20px;
+  margin:0px 5px 0px 5px;
+  border-radius:3px; 
+  float:left;
+  border:solid 1px #31406D;
+  margin:3px 0 0 -2px;
+  font-size: 12px;
+  
+}
+#menu1 li a p {
+  float:left;
+  margin:3px 0 0 0;
+  padding:3px 3px 3px 3px;
+}
+.ikon1,.ikon2,.ikon3 {
+  height: 27px;
+  margin: -3px -3px 0 -5px ;
+  width: 27px;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+.ikon1 { background-position: -66px -354px;}
+.ikon1:hover{ background-position: 0px -386px;}
+.ikon2 {background-position: -66px -288px;}
+.ikon2:hover{ background-position: 0px -322px;}
+.ikon3 { background-position: -64px -386px;}
+.ikon3:hover{ background-position: 0px -418px;}
+.ikon4 { 
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: -33px -676px;
+  height: 13px;
+  margin: 7px 0px 0px;
+  width: 16px;
+}
+
+.ikon4:hover{   background-position:-49px -676px;}
+
+/*-------------------------------------------------*/
+.pageTable {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 2px 2px 2px 2px;
+    border-spacing: 0px 20px;      
+    border-collapse: separate;
+    border-style: double;
+}
+
+.noResultsCls{
+      margin-left: auto;
+      margin-right: auto;
+      padding: 200px 0px 0px 200px;
+}
+
+tr, td {
+    border: 2px solid rgb(205, 206, 207);
+    padding: 10px;
+}
