@@ -25,3 +25,4 @@ If not, see
 ---------------------------------------------------------------------------------------------------------------------------
 
 This is website to get details about Facebook page. It uses Facebook Graph API and plain JavaScript.
+This project is hosted on http://fakebuk-page-search.parseapp.com/
